@@ -174,8 +174,14 @@ clientBot.on("callback_query", (query) => {
 
 app.get("/users", (req: Request, res: Response) => {
   try {
+    const hari = req.query.hari as string;
     const data: IPendaftar[] = JSON.parse(fs.readFileSync(FILE_PATH, "utf8"));
-    res.status(200).json(data); 
+    const filteredData = data.filter((user) => user.hari === hari);
+    if (hari) {
+      res.status(200).json(filteredData);
+    } else {
+      res.status(200).json(data);
+    }
   } catch (error) {
     console.error("Error reading users data:", error);
     res.status(500).json({ error: "Failed to load user data." });

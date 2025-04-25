@@ -1,9 +1,37 @@
 [
   {
     "telegram_id": 6522371515,
-    "nama": "Akazell.",
-    "hari": "Sunday",
+    "nama": "Akazell",
+    "hari": "Friday",
+    "jam": "11:45 AM",
+    "tanggal": "2025-04-25T04:42:30.504Z"
+  },
+  {
+    "telegram_id": 6624257288,
+    "nama": "oza",
+    "hari": "Friday",
+    "jam": "11:45 AM",
+    "tanggal": "2025-04-25T04:42:44.176Z"
+  },
+  {
+    "telegram_id": 6577328239,
+    "nama": "Ketua Orang Hitam",
+    "hari": "Friday",
     "jam": "12:00 PM",
-    "tanggal": "2025-04-13T16:15:41.710Z"
+    "tanggal": "2025-04-25T04:45:49.022Z"
+  },
+  {
+    "telegram_id": 6899141740,
+    "nama": "ali",
+    "hari": "Friday",
+    "jam": "12:00 PM",
+    "tanggal": "2025-04-25T04:49:24.064Z"
+  },
+  {
+    "telegram_id": 1819334731,
+    "nama": "deris",
+    "hari": "Friday",
+    "jam": "12:00 PM",
+    "tanggal": "2025-04-25T04:50:40.972Z"
   }
 ]
